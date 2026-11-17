@@ -1,0 +1,13 @@
+node_modules/
+dados/
+*.log
+servidor.log
+.DS_Store
+.env
+config.json
+windows/.cache/
+windows/.stage/
+windows/.stage.*.nsi
+mac/.cache/
+mac/.stage/
+dist/

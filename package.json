@@ -1,0 +1,15 @@
+{
+  "name": "raspador-leads",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Raspador de leads (Google Maps + base de CNPJ) com fila de cidades via API do IBGE.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "express": "^4.19.2",
+    "puppeteer": "^23.0.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
